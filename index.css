@@ -65,6 +65,10 @@ header .name, .nav, .heading2, .heading-text {
     text-align: center;
 }
 
+.nav nav {
+    background-color: grey;
+    padding: .5rem;
+}
 .nav nav a {
     background-color: rgb(14, 29, 238);
     color: aliceblue;
@@ -84,4 +88,40 @@ header .name, .nav, .heading2, .heading-text {
     width: 100%;
     padding: 2rem 0;
     border: 5rem grey;
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+}
+
+#projects img {
+    margin: 0 1% 1% 0;
+}
+
+#projects p {
+    text-align: center;
+}
+
+footer div {
+    padding: 5%;
+    border: 5%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+footer div a {
+    background-color: rgb(14, 29, 238);
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem 2.25rem;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+footer div a:hover {
+    color: rgb(14, 29, 238);
+    background-color: aliceblue;
 }
