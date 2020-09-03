@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Grandstander', cursive;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header .name, .nav, .heading2, .heading-text {
+    display: flex;
+    padding: .8%;
+    justify-content: center;
+}
+
+.name h1, h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+
+}
+
+.heading-text p {
+    text-align: center;
+}
+
+.nav nav {
+    background-color: grey;
+    padding: .5rem;
+}
+.nav nav a {
+    background-color: rgb(14, 29, 238);
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem 2.25rem;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.nav nav a:hover {
+    color: rgb(14, 29, 238);
+    background-color: aliceblue;
+}
+
+.nav nav a:active {
+    color: rgb(14, 29, 238);
+    background-color: aliceblue;
+}
+
+.surf img {
+    width: 100%;
+    padding: 2rem 0;
+    border: 5rem grey;
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+}
+
+#projects img {
+    margin: 0 1% 1% 0;
+}
+
+#projects p {
+    text-align: center;
+}
+
+#projects div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects div a {
+    background-color: rgb(14, 29, 238);
+    color: aliceblue;
+    padding: 1rem 2.25rem;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 5rem;
+}
+
+footer div {
+    padding: 5%;
+    border: 5%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+footer div a {
+    background-color: rgb(14, 29, 238);
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem 2.25rem;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+footer div a:hover {
+    color: rgb(14, 29, 238);
+    background-color: aliceblue;
+}
